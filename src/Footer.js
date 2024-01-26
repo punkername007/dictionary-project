@@ -5,15 +5,15 @@ export default function Footer() {
   return (
     <div className="Footer">
       This project was coded by{" "}
-      <a href="#" rel="noreferrer">
+      <a href="#" target="_blank" rel="noreferrer">
         Selene Roa
       </a>
       . It is free sourced on{" "}
-      <a href="#" rel="noreferrer">
+      <a href="#" target="_blank" rel="noreferrer">
         Github
       </a>{" "}
       and hosted on{" "}
-      <a href="#" rel="noreferrer">
+      <a href="#" target="_blank" rel="noreferrer">
         Netlify
       </a>
     </div>
