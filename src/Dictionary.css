@@ -1,12 +1,30 @@
 .Dictionary h1 {
   letter-spacing: 2px;
   margin: 0 auto 10px;
+  text-align: center;
+}
+
+.Dictionary form {
+  text-align: center;
 }
 
 .Dictionary [type="search"] {
-  width: 70%;
-  padding: 8px 10px;
   border: none;
   border-radius: 5px;
   font-size: 15px;
+  padding: 8px 10px;
+  width: 70%;
+}
+
+.Dictionary h2,
+h3 {
+  text-transform: capitalize;
+}
+
+.Dictionary h3 {
+  font-weight: 500;
+}
+
+.Dictionary li {
+  list-style: none;
 }
