@@ -1,0 +1,12 @@
+.Dictionary h1 {
+  letter-spacing: 2px;
+  margin: 0 auto 10px;
+}
+
+.Dictionary [type="search"] {
+  width: 70%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
