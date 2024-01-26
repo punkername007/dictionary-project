@@ -5,15 +5,27 @@ export default function Footer() {
   return (
     <div className="Footer">
       This project was coded by{" "}
-      <a href="#" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/punkername007"
+        target="_blank"
+        rel="noreferrer"
+      >
         Selene Roa
       </a>
       . It is free sourced on{" "}
-      <a href="#" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/punkername007/dictionary-project"
+        target="_blank"
+        rel="noreferrer"
+      >
         Github
       </a>{" "}
       and hosted on{" "}
-      <a href="#" target="_blank" rel="noreferrer">
+      <a
+        href="https://sr-dictionary-react.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
         Netlify
       </a>
     </div>
