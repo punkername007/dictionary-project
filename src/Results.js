@@ -10,7 +10,7 @@ export default function Results(props) {
           <div className="meaning-results">
             {props.result.meanings.map(function (meaning, index) {
               return (
-                <div key={index}>
+                <div key={index} className="part-of-speech">
                   <Meaning meaning={meaning} />
                 </div>
               );

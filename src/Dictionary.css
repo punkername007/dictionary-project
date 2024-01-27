@@ -1,6 +1,11 @@
+.Dictionary .search-engine-container {
+  background: #fdf0f0;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.111);
+  padding: 10px;
+}
 .Dictionary h1 {
   letter-spacing: 5px;
-  margin: 10px auto;
   text-align: center;
   color: #1f4172;
   font-size: 30px;
@@ -52,7 +57,6 @@
 
 .Results {
   margin-top: 30px;
-  border-top: 1px solid rgba(128, 128, 128, 0.111);
 }
 
 .Results .results-container {
@@ -60,12 +64,26 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.Results .meaning-results {
-  border-right: 1px solid rgba(128, 128, 128, 0.111);
+.meaning-results .part-of-speech {
+  background: #fdf0f0;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.111);
+  padding: 10px 20px;
+  margin-bottom: 30px;
 }
 
-.Meaning {
-  margin-bottom: 30px;
+.Synonyms ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 10px auto;
+}
+
+.Synonyms li {
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0 15px;
+  line-height: 1.5;
 }
 
 @media (max-width: 992px) {
