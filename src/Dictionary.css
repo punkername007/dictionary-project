@@ -1,7 +1,11 @@
 .Dictionary h1 {
-  letter-spacing: 2px;
-  margin: 0 auto 10px;
+  letter-spacing: 5px;
+  margin: 10px auto;
   text-align: center;
+  color: #1f4172;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .Dictionary form {
@@ -14,17 +18,58 @@
   font-size: 15px;
   padding: 8px 10px;
   width: 70%;
+  letter-spacing: 1px;
+  color: #1f4172;
+  margin: 10px;
 }
 
-.Dictionary h2,
-h3 {
-  text-transform: capitalize;
+.Dictionary h2 {
+  text-transform: uppercase;
+  color: #1f4172;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
 }
 
 .Dictionary h3 {
   font-weight: 500;
+  color: #f1b4bb;
+  font-size: 20px;
+}
+
+.Dictionary ul {
+  padding: 0 20px;
 }
 
 .Dictionary li {
   list-style: none;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.Results {
+  margin-top: 30px;
+  border-top: 1px solid rgba(128, 128, 128, 0.111);
+}
+
+.Results .results-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Results .meaning-results {
+  border-right: 1px solid rgba(128, 128, 128, 0.111);
+}
+
+.Meaning {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .Results .results-container {
+    grid-template-columns: 1fr;
+  }
 }

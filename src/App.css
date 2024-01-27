@@ -1,5 +1,10 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
 .App .container {
-  background: wheat;
+  background: #fdf0f0;
+  color: #132043;
   border-radius: 10px;
   margin: 50px auto 10px;
   max-width: 90%;
