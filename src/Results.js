@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import Photos from "./Photos";
 
 export default function Results(props) {
   if (props.result) {
@@ -17,6 +18,9 @@ export default function Results(props) {
                 </div>
               );
             })}
+          </div>
+          <div className="photos-container">
+            <Photos photos={props.photos} />
           </div>
         </div>
       </div>
