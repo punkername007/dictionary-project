@@ -9,7 +9,7 @@
   background: var(--primary-color);
   border-radius: 5px;
   box-shadow: 0 5px 5px var(--shadow);
-  padding: 10px;
+  padding: 10px 10px 20px;
 }
 
 .Dictionary h1 {
@@ -22,6 +22,8 @@
 }
 
 .Dictionary form {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -31,11 +33,18 @@
   color: var(--secondary-color);
   font-size: 15px;
   letter-spacing: 1px;
-  margin: 10px;
-  padding: 8px 10px;
-  width: 70%;
+  margin-top: 8px;
+  padding: 12px 12px;
+  width: 100%;
 }
 
+.Dictionary .search-engine-container p {
+  font-size: 10px;
+  text-align: start;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  margin: 5px 0 0 5px;
+}
 .Results {
   margin-top: 30px;
 }
@@ -132,8 +141,11 @@
     font-size: 20px;
   }
 
-  .Dictionary [type="search"] {
+  .Dictionary form {
     width: 90%;
+  }
+
+  .Dictionary [type="search"] {
     font-size: 13px;
   }
   .Results h2 {

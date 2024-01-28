@@ -39,10 +39,10 @@ export default function Dictionary() {
           <input
             type="search"
             placeholder="Search for ..."
-            autoFocus={true}
             required
             onChange={updateKeyword}
           />
+          <p>e.g: beach, sunset, cat</p>
         </form>
       </div>
       <Results result={result} photos={photos} />
