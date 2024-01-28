@@ -1,11 +1,19 @@
+:root {
+  --primary-color: #fdf0f0;
+  --secondary-color: #1f4172;
+  --terciary-color: #f1b4bb;
+  --shadow: #8080801c;
+}
+
 .Dictionary .search-engine-container {
-  background: #fdf0f0;
+  background: var(--primary-color);
   border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.111);
+  box-shadow: 0 5px 5px var(--shadow);
   padding: 10px;
 }
+
 .Dictionary h1 {
-  color: #1f4172;
+  color: var(--secondary-color);
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 5px;
@@ -20,7 +28,7 @@
 .Dictionary [type="search"] {
   border: none;
   border-radius: 5px;
-  color: #1f4172;
+  color: var(--secondary-color);
   font-size: 15px;
   letter-spacing: 1px;
   margin: 10px;
@@ -38,7 +46,7 @@
 }
 
 .Results h2 {
-  color: #1f4172;
+  color: var(--secondary-color);
   font-size: 25px;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -47,15 +55,15 @@
 }
 
 .Results .part-of-speech {
-  background: #fdf0f0;
+  background: var(--primary-color);
   border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.111);
+  box-shadow: 0 5px 5px var(--shadow);
   margin: 15px 0 30px;
   padding: 10px 20px;
 }
 
 .Meaning h3 {
-  color: #f1b4bb;
+  color: var(--terciary-color);
   font-size: 20px;
   font-weight: 500;
 }
@@ -67,8 +75,9 @@
 .Meaning li {
   font-weight: 300;
   letter-spacing: 1px;
-  list-style: none;
-  margin-bottom: 8px;
+  list-style-position: inside;
+  list-style-type: "•";
+  margin-bottom: 10px;
 }
 
 .Synonyms ul {
@@ -79,8 +88,10 @@
 }
 
 .Synonyms li {
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
+  list-style: none;
   margin: 0 15px;
   text-transform: capitalize;
 }
@@ -102,7 +113,7 @@
 
 .Phonetics .icon {
   font-size: 30px;
-  color: #1f4172;
+  color: var(--secondary-color);
 }
 
 .Phonetics .icon:hover {
