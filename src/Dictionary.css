@@ -5,11 +5,11 @@
   padding: 10px;
 }
 .Dictionary h1 {
-  letter-spacing: 5px;
-  text-align: center;
   color: #1f4172;
   font-size: 30px;
   font-weight: 600;
+  letter-spacing: 5px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -20,39 +20,12 @@
 .Dictionary [type="search"] {
   border: none;
   border-radius: 5px;
+  color: #1f4172;
   font-size: 15px;
+  letter-spacing: 1px;
+  margin: 10px;
   padding: 8px 10px;
   width: 70%;
-  letter-spacing: 1px;
-  color: #1f4172;
-  margin: 10px;
-}
-
-.Dictionary h2 {
-  text-transform: uppercase;
-  color: #1f4172;
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
-  letter-spacing: 1.5px;
-}
-
-.Dictionary h3 {
-  font-weight: 500;
-  color: #f1b4bb;
-  font-size: 20px;
-}
-
-.Dictionary ul {
-  padding: 0 20px;
-}
-
-.Dictionary li {
-  list-style: none;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-  font-weight: 300;
 }
 
 .Results {
@@ -64,12 +37,38 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.meaning-results .part-of-speech {
+.Results h2 {
+  color: #1f4172;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.Results .part-of-speech {
   background: #fdf0f0;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(128, 128, 128, 0.111);
+  margin: 15px 0 30px;
   padding: 10px 20px;
-  margin-bottom: 30px;
+}
+
+.Meaning h3 {
+  color: #f1b4bb;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Meaning ul {
+  padding: 0 20px;
+}
+
+.Meaning li {
+  font-weight: 300;
+  letter-spacing: 1px;
+  list-style: none;
+  margin-bottom: 8px;
 }
 
 .Synonyms ul {
@@ -81,9 +80,33 @@
 
 .Synonyms li {
   font-weight: 500;
-  text-transform: capitalize;
-  margin: 0 15px;
   line-height: 1.5;
+  margin: 0 15px;
+  text-transform: capitalize;
+}
+
+.Phonetics {
+  align-items: center;
+  display: flex;
+}
+
+.Phonetics p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Phonetics .phonetic-text {
+  margin: 5px 0;
+}
+
+.Phonetics .icon {
+  font-size: 30px;
+  color: #1f4172;
+}
+
+.Phonetics .icon:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
