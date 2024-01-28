@@ -5,8 +5,13 @@
   align-self: center;
 }
 
+.Photos img:hover {
+  transform: scale(1.1);
+}
+
 .Photos img {
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 5px 15px #808080a5;
+  transition: all 200ms ease-in-out;
 }

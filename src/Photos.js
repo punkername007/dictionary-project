@@ -13,6 +13,7 @@ export default function Photos(props) {
                 target="_blank"
                 rel="noreferrer"
                 key={index}
+                title="Open in browser"
               >
                 <img src={photo.src.landscape} alt={photo.alt} />
               </a>
