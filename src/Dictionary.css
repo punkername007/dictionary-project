@@ -3,10 +3,11 @@
   --secondary-color: #1f4172;
   --terciary-color: #f1b4bb;
   --shadow: #8080801c;
+  --gradient: to top, #fdcbf1 0%, #f8e5f3 1%, #eee6f1 100%;
 }
 
 .Dictionary .search-engine-container {
-  background: var(--primary-color);
+  background: linear-gradient(var(--gradient));
   border-radius: 5px;
   box-shadow: 0 5px 5px var(--shadow);
   padding: 10px 10px 20px;
@@ -66,9 +67,10 @@
 }
 
 .Results .part-of-speech {
-  background: var(--primary-color);
+  background: linear-gradient(var(--gradient));
   border-radius: 5px;
   box-shadow: 0 5px 5px var(--shadow);
+  margin-bottom: 15px;
   padding: 10px 20px;
 }
 

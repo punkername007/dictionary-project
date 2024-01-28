@@ -12,7 +12,7 @@ export default function Footer() {
       >
         Selene Roa
       </a>
-      <br />. It is open-sourced on{" "}
+      <br /> It is open-sourced on{" "}
       <a
         href="https://github.com/punkername007/dictionary-project"
         target="_blank"
